@@ -21,7 +21,7 @@ describe App do
       fill_in("team[name]", :with => "Team Ruby")
       fill_in("team[motto]", :with => "We love Ruby!")
       fill_in("member1_name", :with => "Amanda")
-      fill_in("member1_power", :with => "Ruby")
+  #    fill_in("member1_power", :with => "Ruby")
       fill_in("member1_bio", :with => "I love Ruby!")
       fill_in("member2_name", :with => "Arel")
       fill_in("member2_power", :with => "JavaScript")
